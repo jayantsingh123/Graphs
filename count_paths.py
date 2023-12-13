@@ -5,7 +5,7 @@ class Solution:
 
     def bfs(self, grid, source, destination, L):
         q=[[source]]
-       # L=[]
+
         while len(q)>0:
             # get the path found so far in FIFO order
             curr_path=q.pop(0)
