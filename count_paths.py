@@ -26,7 +26,7 @@ class Solution:
         return
 
     def countpaths(self,grid, source, destination):
-        """ get list of all paths from source to destination in directed graph"""
+        """ get list of all paths from source to destination in directed graph using BFS"""
         L=[]
         if len(grid[source])==0:
             return 0
