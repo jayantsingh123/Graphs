@@ -1,4 +1,6 @@
 def breadth_first_search(graph):
+    """ Similar to level order traversal, we traverse all neighbors of a node
+    before proceeding to next node"""
     L = []
     if len(graph)==0:
         return L

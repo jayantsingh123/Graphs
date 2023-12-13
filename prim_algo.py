@@ -1,4 +1,5 @@
 class Solution:
+    """ Implement Prims Algorithm to find Minimum Spanning Tree(MST) from a DAG"""
     def __init__(self, N, edges):
 
        self.edges = edges

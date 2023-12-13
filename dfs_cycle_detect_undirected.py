@@ -11,6 +11,8 @@ class Solution:
                 return self.dfs_cycle_detect(grid, j, visited, parent)
             else:
                 if j!=parent[node]:
+                    # while traversing the neighbors, if there is an already visited node
+                    # which is not the parent, means we have a cycle.
                       return True
         return False
 

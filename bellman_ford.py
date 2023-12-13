@@ -7,6 +7,8 @@ class Solution:
 
 
     def bellman(self):
+        """ Bellman Forda algorithm helps to find shortest path in a DAG
+        with positive as well as negative weights"""
         ctr = self.N-1
         arr=[-1]*self.N
         #print(self.N)
