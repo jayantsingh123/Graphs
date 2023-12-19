@@ -2,6 +2,8 @@ class Solution:
     def __init__(self):
         pass
     def floyd(self, grid):
+        """ using dynammic programming,
+        find shortest distance between arbitrary pair of vertices in a DAG """
         n = len(grid[0])
         for k in range(n):
             for i in range(n):
