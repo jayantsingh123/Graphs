@@ -1,1 +1,1 @@
-This repository is a collection of codes implemented in Python 3.12,  explaining vsrious comcepts ad applications of Graph Data Structure. In addition to being a very complex Data Structure, it finds applications in various industries such as logistics, social networks etc. 
+This repository is a collection of codes implemented in Python 3.12,  explaining various concepts ad applications of Graph Data Structure. In addition to being a very complex Data Structure, it finds applications in various industries such as logistics, social networks etc. 
