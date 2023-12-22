@@ -4,7 +4,8 @@ class Solution:
         pass
     def check_bridge(self, graph,V, c, d):
         """ is the edge from c to d a bridge in the graph.
-        Idea: Check if there are more than one ways to go from vertex c to vertex d"""
+        Idea: Check if there are more than one ways to go from vertex c to vertex d
+        Return True if bridge else False"""
         q=[c]
         visited=[False]*V
         visited[c]=True
