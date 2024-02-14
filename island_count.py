@@ -24,6 +24,7 @@ class Solution:
                         q.append((next_row, next_col))
                         #size+=1
                         L[0]=L[0]+1
+                        print(L,id(L))
                         #print(size)
         return
 
@@ -51,9 +52,11 @@ class Solution:
                 if not visited[i][j] and grid[i][j]==1:
                     #size=1
                     L.append(1)
+                    print(L,id(L))
                     self.bfs(grid, i, j, visited, dx, dy, nrows, ncols,L)
                    # print(visited)
                     cnt+=1
+                    print(L,id(L))
                     maxsize=max(maxsize, L[0])
                     L=[]
                     #print(maxsize)
